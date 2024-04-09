@@ -1,5 +1,3 @@
-@extends('layouts.app')
-
 @section('title', isset($task) ? 'Edit Tasks': 'Add Task')
 
 @section('styles')
