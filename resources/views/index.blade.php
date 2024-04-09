@@ -11,7 +11,7 @@
         <div>There are none task</div>
     @endif --}}
     <nav class="mb-4">
-        <a href="{{ route('tasks.create')}}" class="font-medium text-gray-700 underline decoration-pink-500">
+        <a href="{{ route('tasks.create')}}" class="link">
             Add Task
         </a>
     </nav>
