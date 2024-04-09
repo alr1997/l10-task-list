@@ -14,7 +14,7 @@
 @section('content')
     {{-- {{$errors}} --}}
 
-    <form action="{{route('tasks.store')}}" method="post">
+    {{-- <form action="{{route('tasks.store')}}" method="post">
         @csrf
         <div>
             <label for="title">Title</label>
@@ -44,6 +44,8 @@
             <button type='submit'>Add Task</button>
         </div>
 
-    </form>
+    </form> --}}
+
+    @include('form')
 
 @endsection
